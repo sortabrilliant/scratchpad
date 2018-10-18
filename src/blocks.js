@@ -45,11 +45,11 @@ class SBB_Scratchpad extends Component {
         return (
             <Fragment>
                 <PluginSidebarMoreMenuItem target="sortabrilliant-scratchpad-sidebar">
-                    { __( 'ScratchPad' ) }
+                    { __( 'Scratchpad' ) }
                 </PluginSidebarMoreMenuItem>
                 <PluginSidebar
                     name="sortabrilliant-scratchpad-sidebar"
-                    title={ __( 'ScratchPad' ) }
+                    title={ __( 'Scratchpad' ) }
                 >
                     <PanelBody>
                         <TextareaControl
