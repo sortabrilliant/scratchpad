@@ -10,16 +10,23 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since 1.0.0
  */
-function sbb_scratchpad_cgb_editor_assets() {
+function sbb_scratchpad_editor_assets() {
 	wp_enqueue_script(
-		'sbb_scratchpad-cgb-block-js',
+		'sbb_scratchpad-block-js',
 		plugins_url( '/dist/blocks.build.js', dirname( __FILE__ ) ),
 		array( 'wp-i18n', 'wp-element', 'wp-edit-post' ),
 		filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.build.js' ),
 		true // load in the footer
 	);
+
+	wp_enqueue_style(
+		'sbb_scratchpad-block-editor-css',
+		plugins_url( 'dist/blocks.editor.build.css', dirname( __FILE__ ) ),
+		array( 'wp-edit-blocks' ),
+		filemtime( plugin_dir_path( __DIR__ ) . 'dist/blocks.editor.build.css' )
+	);
 }
-add_action( 'enqueue_block_editor_assets', 'sbb_scratchpad_cgb_editor_assets' );
+add_action( 'enqueue_block_editor_assets', 'sbb_scratchpad_editor_assets' );
 
 /**
  * Register ScratchPad Meta Field with the REST API.
