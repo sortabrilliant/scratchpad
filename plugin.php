@@ -1,9 +1,9 @@
 <?php
 /**
  * Plugin Name: Scratchpad
- * Plugin URI: https://github.com/sortabrilliant/scratchpad
- * Description: Scratchpad
- * Author: SortaBrilliant
+ * Plugin URI: https://sortabrilliant.com/scratchpad/
+ * Description: Keep notes where they're needed most.
+ * Author: sorta brilliant
  * Author URI: https://sortabrilliant.com
  * Version: 0.0.1
  * License: GPL2+
