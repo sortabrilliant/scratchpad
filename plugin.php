@@ -5,7 +5,7 @@
  * Description: Keep notes where they're needed most.
  * Author: sorta brilliant
  * Author URI: https://sortabrilliant.com
- * Version: 0.0.2
+ * Version: 0.0.3
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
