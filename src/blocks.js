@@ -53,7 +53,7 @@ class SBB_Scratchpad extends Component {
                 >
                     <PanelBody>
                         <TextareaControl
-                            label={ __( 'Scratchpad' ) }
+                            label={ __( 'Keep notes where they\'re needed most.' ) }
                             value={ this.state.value }
                             rows="25"
                             onChange={ this.handleChange }
