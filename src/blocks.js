@@ -20,7 +20,7 @@ class SBB_Scratchpad extends Component {
 
         this.handleChange = this.handleChange.bind(this);
 
-        wp.apiFetch( { path: `/wp/v2/posts/${ this.props.postId }`, method: 'GET' } ).then( ( data ) => {
+        wp.apiFetch( { path: `/wp/v2/${ this.props.postType }s/${ this.props.postId }`, method: 'GET' } ).then( ( data ) => {
             this.setState( { value: data.meta._sbb_scratchpad_field } );
         } );
     }
@@ -70,6 +70,7 @@ class SBB_Scratchpad extends Component {
 const applyWithSelect = withSelect( ( select, { forceIsSaving } ) => {
     const {
         getCurrentPostId,
+        getCurrentPostType,
         isSavingPost,
         isPublishingPost,
         isAutosavingPost,
@@ -77,6 +78,7 @@ const applyWithSelect = withSelect( ( select, { forceIsSaving } ) => {
 
     return {
         postId: getCurrentPostId(),
+        postType: getCurrentPostType(),
         isSaving: forceIsSaving || isSavingPost(),
         isAutosaving: isAutosavingPost(),
         isPublishing: isPublishingPost(),
