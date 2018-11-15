@@ -41,7 +41,7 @@ function sbb_scratchpad_github_plugin_updater_test_init() {
 			'readme'             => 'README.md',
 		);
 
-		new WP_GitHub_Updater( $config );
+		new SBB_Scratchpad_GitHub_Updater( $config );
 	}
 }
 add_action( 'init', 'sbb_scratchpad_github_plugin_updater_test_init' );
