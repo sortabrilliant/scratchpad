@@ -39,17 +39,6 @@ function scratchpad_register_block() {
 		$asset_file['version'],
 		true // Enqueue script in the footer.
 	);
-
-	// Editor Styles.
-	$asset_filepath = SCRATCHPAD_PLUGIN_DIR . '/build/scratchpad-editor.asset.php';
-	$asset_file     = file_exists( $asset_filepath ) ? include $asset_filepath : $default_asset_file;
-
-	wp_enqueue_style(
-		'scratchpad-editor',
-		SCRATCHPAD_PLUGIN_URL . 'build/scratchpad-editor.css',
-		array(),
-		$asset_file['version']
-	);
 }
 
 add_action( 'init', 'scratchpad_register_block' );

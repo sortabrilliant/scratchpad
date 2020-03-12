@@ -11,7 +11,6 @@ module.exports = {
 
 	entry: {
 		'scratchpad': path.resolve( process.cwd(), 'src/index.js' ),
-		'scratchpad-editor': path.resolve( process.cwd(), 'src/styles/editor.scss' ),
 	},
 
 	module: {
