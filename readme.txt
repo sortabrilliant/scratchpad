@@ -1,6 +1,6 @@
 === Scratchpad ===
 Contributors: sortabrilliant, jrtashjian
-Tags: dashboard
+Tags: notes, block
 Requires at least: 5.0
 Tested up to: 5.3.2
 Stable tag: 1.0.2
@@ -8,18 +8,18 @@ Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-SHORT DESCRIPTION
+Keeping notes where they really belong.
 
 == Description ==
-DESCRIPTION
+Whenever I’m creating content I have a note open on my computer where I put all my sources, to dos, etc. Basically it’s where I keep all the bits and pieces that end up being turned into the content.
+
+There is nothing more frustrating that wanting to work on a piece of content and not having access to those notes. That's what gave me the idea, to put the notes where they really belong, in the editor where the content is being worked on. 
 
 #### I like this, who made it?
 This plugin is brought to you by [sorta brilliant](https://sortabrilliant.com/) and [block garden](https://block.garden).
 
 == Screenshots ==
-1. SCREENSHOT ONE
+1. Click the sidebar icon and add your notes.
 
 == Changelog ==
-
-### Misc
 * Cleanup for directory submission
