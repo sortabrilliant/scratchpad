@@ -5,7 +5,7 @@
  * Description: Keep notes where they're needed most.
  * Author: sorta brilliant
  * Author URI: https://sortabrilliant.com
- * Version: 1.0.2
+ * Version: 1.0.3
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SCRATCHPAD_VERSION', '1.0.2' );
+define( 'SCRATCHPAD_VERSION', '1.0.3' );
 define( 'SCRATCHPAD_PLUGIN_DIR', dirname( __FILE__ ) );
 define( 'SCRATCHPAD_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

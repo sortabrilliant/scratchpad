@@ -3,7 +3,7 @@ Contributors: sortabrilliant, jrtashjian
 Tags: notes, block
 Requires at least: 5.0
 Tested up to: 5.4.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 Requires PHP: 5.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -22,4 +22,7 @@ This plugin is brought to you by [sorta brilliant](https://sortabrilliant.com/) 
 1. Click the sidebar icon and add your notes.
 
 == Changelog ==
-* Cleanup for directory submission
+
+### Misc
+* Fix plugin slug
+* Bumping "Tested up to" for WordPress 5.4.0
