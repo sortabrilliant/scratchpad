@@ -12,14 +12,14 @@ import { registerPlugin } from '@wordpress/plugins';
 const ScratchPadPlugin = ( props ) => (
 	<Fragment>
 		<PluginSidebarMoreMenuItem target="sortabrilliant-scratchpad-sidebar">
-			{ __( 'Scratchpad', 'scratchpad' ) }
+			{ __( 'Scratchpad', 'scratch-pad' ) }
 		</PluginSidebarMoreMenuItem>
 		<PluginSidebar
 			name="sortabrilliant-scratchpad-sidebar"
-			title={ __( 'Scratchpad', 'scratchpad' ) }>
+			title={ __( 'Scratchpad', 'scratch-pad' ) }>
 			<PanelBody>
 				<TextareaControl
-					label={ __( 'Keep notes where they\'re needed most.', 'scratchpad' ) }
+					label={ __( 'Keep notes where they\'re needed most.', 'scratch-pad' ) }
 					value={ props.metaFieldValue }
 					rows="25"
 					onChange={ value => props.setMetaFieldValue( value ) }

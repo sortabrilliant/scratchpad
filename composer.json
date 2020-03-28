@@ -1,5 +1,5 @@
 {
-	"name": "sortabrilliant/scratchpad",
+	"name": "sortabrilliant/scratch-pad",
 	"type": "wordpress-plugin",
 	"require": {
 		"php": ">=5.6"
