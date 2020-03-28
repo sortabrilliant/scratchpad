@@ -2,7 +2,7 @@
 Contributors: sortabrilliant, jrtashjian
 Tags: notes, block
 Requires at least: 5.0
-Tested up to: 5.3.2
+Tested up to: 5.4.0
 Stable tag: 1.0.2
 Requires PHP: 5.6
 License: GPLv2 or later
@@ -13,7 +13,7 @@ Keeping notes where they really belong.
 == Description ==
 Whenever I’m creating content I have a note open on my computer where I put all my sources, to dos, etc. Basically it’s where I keep all the bits and pieces that end up being turned into the content.
 
-There is nothing more frustrating that wanting to work on a piece of content and not having access to those notes. That's what gave me the idea, to put the notes where they really belong, in the editor where the content is being worked on. 
+There is nothing more frustrating that wanting to work on a piece of content and not having access to those notes. That's what gave me the idea, to put the notes where they really belong, in the editor where the content is being worked on.
 
 #### I like this, who made it?
 This plugin is brought to you by [sorta brilliant](https://sortabrilliant.com/) and [block garden](https://block.garden).
